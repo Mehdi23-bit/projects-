@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Space Mono", monospace;
+    color: white;
+
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+}
+
+#title{
+margin-top: 200px;
+font-size:100px;
+font-weight: 700;
+}
+#mybutton{
+    border:3px solid white;
+    color: white;
+    border-radius: 15px;
+    font-family: "Space Mono", monospace;
+    background-color: transparent;
+    width:150px;
+    height:70px;
+    font-weight: 400;
+    font-size: 24px;
+}
